@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Speed Typing Game</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="main-header">
+      <h1>Word Beater</h1>
+    </header>
+
+    <div class="container">
+      <div>
+        <p
+          >Type The Given Word Within
+          <span id="seconds" class="text-green">5</span> Seconds:</p
+        >
+        <h2 class="text-lg" id="current-word"></h2>
+        <input
+          type="text"
+          class="type-input"
+          placeholder="Start typing..."
+          autofocus
+          id="word-input"
+        />
+        <h4 id="message"></h4>
+      </div>
+
+      <!--Time & Score Columns-->
+      <div>
+        <h3>Time Left: <span id="time"></span></h3>
+        <h3>Score: <span id="score">0</span> </h3>
+        <h3>Your the best score:<span id="best-score">0</span></h3>
+      </div>
+
+      <div class="instructions">
+        <h2>Instructions</h2>
+        <p>
+          Type each word in the given amount of seconds to score. To play again,
+          just type the current word. Your score will reset
+        </p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
