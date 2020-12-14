@@ -6,3 +6,9 @@
   <li>CSS3</li>
   <li>JavaScript</li>
 </ul>
+
+
+
+
+[Live version](https://dl-speed-typing.netlify.app/)
+
